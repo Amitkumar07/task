@@ -1,0 +1,23 @@
+<p id="notice"><%= notice %></p>
+<p>
+  <strong>Title:</strong>
+  <%= @packages.productid %>
+</p>
+ 
+<p>
+  <strong>Text:</strong>
+ <%= @packages.productndc %>
+</p>
+<p>
+  <strong>Title:</strong>
+  <%= @packages.ndcpackagecode %>
+</p>
+ 
+<p>
+  <strong>Text:</strong>
+  <%= @packages.packagedescription %>
+</p>
+
+z
+<%= link_to 'Edit', edit_package_path(@package) %> |
+<%= link_to 'Back', packages_path %>

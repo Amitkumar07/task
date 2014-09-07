@@ -1,0 +1,35 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  productndc: 
+  producttypename: 
+  proprietaryname: 
+  proprietarynamesuffix: 
+  dosageformname: 
+  routename: 
+  startmarketingdate: 
+  endmarketingdate: 
+  marketingcategoryname: 
+  applicationnumber: 
+  labelername: 
+  substancename: 
+  active_numerator_strength: 
+  active_ingred_unit: 
+  pharm_classes: MyString
+
+two:
+  productndc: 
+  producttypename: 
+  proprietaryname: 
+  proprietarynamesuffix: 
+  dosageformname: 
+  routename: 
+  startmarketingdate: 
+  endmarketingdate: 
+  marketingcategoryname: 
+  applicationnumber: 
+  labelername: 
+  substancename: 
+  active_numerator_strength: 
+  active_ingred_unit: 
+  pharm_classes: MyString

@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  productid: 
+  productndc: 
+  ndcpackagecode: 
+  packagedescription: MyString
+
+two:
+  productid: 
+  productndc: 
+  ndcpackagecode: 
+  packagedescription: MyString
