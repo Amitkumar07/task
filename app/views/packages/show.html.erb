@@ -1,23 +1,23 @@
 <p id="notice"><%= notice %></p>
 <p>
   <strong>Title:</strong>
-  <%= @packages.productid %>
+  <%= @package.productid %>
 </p>
  
 <p>
   <strong>Text:</strong>
- <%= @packages.productndc %>
+ <%= @package.productndc %>
 </p>
 <p>
   <strong>Title:</strong>
-  <%= @packages.ndcpackagecode %>
+  <%= @package.ndcpackagecode %>
 </p>
  
 <p>
   <strong>Text:</strong>
-  <%= @packages.packagedescription %>
+  <%= @package.packagedescription %>
 </p>
 
-z
+
 <%= link_to 'Edit', edit_package_path(@package) %> |
 <%= link_to 'Back', packages_path %>
