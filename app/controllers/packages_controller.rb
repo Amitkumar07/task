@@ -4,7 +4,7 @@ class PackagesController < ApplicationController
   # GET /packages
   # GET /packages.json
   def index
-    @packages = Package.first(5)
+    @packages = Package.all
   end
 
   # GET /packages/1
